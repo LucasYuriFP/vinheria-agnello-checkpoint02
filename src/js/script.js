@@ -127,7 +127,15 @@ function iniciarSistema() {
     }
   }
 
-  // O resumo final entra na Parte 6
+  // Resumo final, depois que o laço terminou
+  let resumo = "RESUMO FINAL\n\n" +
+               "Cadastros realizados: " + totalCadastros + "\n" +
+               "Vinhos com estoque baixo: " + totalEstoqueBaixo + "\n" +
+               "Vinho com a safra mais antiga: " + nomeMaisAntigo +
+               " (" + safraMaisAntiga + ")";
+
+  console.log(resumo);
+  alert(resumo);
 }
 
 iniciarSistema();
