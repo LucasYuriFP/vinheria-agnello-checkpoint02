@@ -2,6 +2,8 @@
 
 Sistema de avaliação de estoque e tendência de vinhos, feito em JavaScript.
 
+![Demonstração do sistema](src/assets/imgs/demo.png)
+
 # O que foi implementado
 
 - Cadastro de vários vinhos em sequência usando `prompt()` e `alert()`, perguntando ao final de cada um se deseja cadastrar outro
